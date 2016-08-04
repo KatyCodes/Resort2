@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+}
+.container {
+  max-width: 1000px;<
+}
+.jumbotron {
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  color: red;
+}
