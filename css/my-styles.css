@@ -14,3 +14,15 @@ body {
   text-align: center;
   color: red;
 }
+
+.carousel-indicators {
+  bottom:0;
+}
+
+.carousel-indicators.active {
+  background-color: black;
+
+}
+.carousel-indicators li {
+  background-color: black;
+}
