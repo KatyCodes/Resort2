@@ -1,8 +1,18 @@
+#myCarousel > div > div > div > div.item > h1 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: 40;
+  color: white;
+  text-shadow: 0 1px 2px black;
+}
+
 body {
   padding-top: 50px;
 }
 .container {
-  max-width: 1500px;<
+  max-width: 1500px;
+  padding: 20px;
 }
 .jumbotron {
   text-align: center;
@@ -12,7 +22,7 @@ body {
   font-size: 3em;
   display: block;
   text-align: center;
-  color: blue;
+  padding: 20px;
 }
 
 .carousel-indicators {
@@ -27,8 +37,17 @@ body {
   background-color: black;
 }
 
-.carousel img {
-  width:1400px;
-  min-height: 600px;
+#myCarousel > div > div > div > div.item.active > img {
+  max-height: 750px;
+}
+body > div.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: white;
+}
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div > ul > li:hover {
+  background-color: black;
+  color:white;
+}
 
+body > div.container > form {
+  padding-right: 100px;
 }

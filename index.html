@@ -1,138 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
-  <link href="css/my-styles.css" rel="stylesheet" media="screen">
-  <title>Best Resort</title>
-</head>
+  <html>
+    <head>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link href="css/my-styles.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <title>Best Resort</title>
+  </head>
 
-  <body>
+    <body>
 
-<!-- NAVBAR START-->
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <!-- NAVBAR START-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <!-- NAVBAR END-->
+    <!--CAROUSEL-->
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div>
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#myCarousel" data-slide-to="0" data-interval="0"</li>
+            <li data-target="#myCarousel" data-slide-to="1"</li>
+            <li data-target="#myCarousel" data-slide-to="2"</li>
+          </ol>
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <h1>Welcome to the Best Resort</h1>
+              <img src="img/picture1.jpg">
+            </div>
+            <div class="item">
+                <h1>Relaxation is our specialty</h1>
+                <img src="img/picture2.jpg">
+            </div>
+            <div class="item">
+                <h1>The sun is always bright</h1>
+                <img src="img/picture3.jpg">
+            </div>
+          </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"</span>
+    </a>
+  </div>
     <div class="container">
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <!--Carousel end-->
 
-      <a class="navbar-brand text-muted" href="#">Ribbit</a>
-      <div class="collapse navbar-collapse">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          <li class="dropdown">
-            <a data-toggle="dropdown" data-target="#">Other<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Accomodations</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Amenities</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Plans &amp; Stuff</a></li>
-              </ul>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </div>
-  <!-- NAVBAR END-->
-  <!--CAROUSEL-->
-  <div id="myCarousel" class="carousel slide jumbotron">
-    <div>
-      <div class="container">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#myCarousel" data-slide-to="0"</li>
-          <li data-target="#myCarousel" data-slide-to="1"</li>
-          <li data-target="#myCarousel" data-slide-to="2"</li>
-        </ol>
-        <div class="carousel-inner">
-
-          <div class="item active">
-            <h1>Best Resort</h1>
-            <img src="img/picture1.jpg">
-            
-            <p class="btn">
-              <a class="btn btn-success btn-lg" href="#">Click here.</a>
-            </p>
-          </div>
-          <div class="item">
-              <h1>Book today</h1>
-              <img src="img/picture2.jpg">
-                <p>
-                  <a class="btn btn-success btn-lg" href="#">Book now!</a>
-                </p>
-          </div>
-          <div class="item">
-              <h1>Never a dull moment at the best resort.</h1>
-              <img src="img/picture3.jpg">
-                          <p>
-                <a class="btn btn-success btn-lg" href="#">Click here!</a>
-              </p>
-          </div>
-        </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="icon-prev"</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"</span>
-  </a>
-</div>
-  <div class="container">
-
-<!--Carousel end-->
-
-<!--Content start-->
-   <div class="row">
-      <div class="col-sm-4">
-        <b class="glyphicon glyphicon-heart"></b>
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices erat nunc, sed consequat mauris congue eu. Ut sagittis mauris quis justo sodales malesuada. Vestibulum ac nunc a lorem tincidunt molestie sed sit amet eros. Vestibulum nec pharetra massa, et placerat ante. Nulla tempor, lectus eget hendrerit porta, ligula justo consectetur nunc, eget efficitur leo ex tempor est. Integer massa nibh, consectetur ac nisl ac, porta ultricies sapien.</p>
-      </div>
-
-      <div class="col-sm-4">
-        <b class="glyphicon glyphicon-usd"></b>
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Phasellus id dignissim sapien. Morbi egestas massa ut est congue, non posuere arcu vulputate. Sed gravida hendrerit congue. In in cursus orci, at ornare nulla. Duis non ultrices ex. Suspendisse ac eros in libero fringilla semper. Nunc quis lacus arcu.</p>
-      </div>
-
-      <div class="col-sm-4">
-        <b class="glyphicon glyphicon-plane"></b>
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Donec sed consectetur sapien, in bibendum magna. Donec ultricies ultrices nunc sed posuere. Praesent volutpat viverra arcu, quis eleifend velit placerat at. Morbi eu felis congue, interdum nisi sed, efficitur velit. Aliquam egestas tempus felis, id porttitor sapien imperdiet et. Mauris id mi nec tellus posuere imperdiet et eget justo. Maecenas tempus auctor posuere. Sed eget augue aliquet, dignissim tellus sit amet, semper lorem. Phasellus id nibh in dolor sodales hendrerit.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-sm-6">
+  <!--Content start-->
+     <div class="row">
+        <div class="col-sm-4">
           <h2>Lorem Ipsum Dolor</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices erat nunc, sed consequat mauris congue eu. Ut sagittis mauris quis justo sodales malesuada. Vestibulum ac nunc a lorem tincidunt molestie sed sit amet eros. Vestibulum nec pharetra massa, et placerat ante. Nulla tempor, lectus eget hendrerit porta, ligula justo consectetur nunc, eget efficitur leo ex tempor est. Integer massa nibh, consectetur ac nisl ac, porta ultricies sapien.</p>
-          <div class="row">
-            <div class="col-sm-6">
-              <img class="img-responsive" src="img/beach.jpg">
-            </div>
-            <div class="col-sm-6">
-              <p>Get access to the best rooms and beaches for only $100 a night!</p>
-              <a href="#">Visit Best Resort NOW &raquo;</a>
-            </div>
-          </div>
         </div>
-        <div class="col-sm-6">
+
+        <div class="col-sm-4">
           <h2>Lorem Ipsum Dolor</h2>
           <p>Phasellus id dignissim sapien. Morbi egestas massa ut est congue, non posuere arcu vulputate. Sed gravida hendrerit congue. In in cursus orci, at ornare nulla. Duis non ultrices ex. Suspendisse ac eros in libero fringilla semper. Nunc quis lacus arcu.</p>
         </div>
-    </div>
-<!--Content end-->
 
-  </div>
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+        <div class="col-sm-4">
+          <h2>Lorem Ipsum Dolor</h2>
+          <p>Donec sed consectetur sapien, in bibendum magna. Donec ultricies ultrices nunc sed posuere. Praesent volutpat viverra arcu, quis eleifend velit placerat at. Morbi eu felis congue, interdum nisi sed, efficitur velit. Aliquam egestas tempus felis, id porttitor sapien imperdiet et. Mauris id mi nec tellus posuere imperdiet et eget justo. Maecenas tempus auctor posuere. Sed eget augue aliquet, dignissim tellus sit amet, semper lorem. Phasellus id nibh in dolor sodales hendrerit.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices erat nunc, sed consequat mauris congue eu. Ut sagittis mauris quis justo sodales malesuada. Vestibulum ac nunc a lorem tincidunt molestie sed sit amet eros. Vestibulum nec pharetra massa, et placerat ante. Nulla tempor, lectus eget hendrerit porta, ligula justo consectetur nunc, eget efficitur leo ex tempor est. Integer massa nibh, consectetur ac nisl ac, porta ultricies sapien.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="img-responsive" src="img/beach.jpg">
+              </div>
+              <div class="col-sm-6">
+                <p>Get access to the best rooms and beaches for only $100 a night!</p>
+                <a href="#">Visit Best Resort NOW &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Phasellus id dignissim sapien. Morbi egestas massa ut est congue, non posuere arcu vulputate. Sed gravida hendrerit congue. In in cursus orci, at ornare nulla. Duis non ultrices ex. Suspendisse ac eros in libero fringilla semper. Nunc quis lacus arcu.</p>
+          </div>
+      </div>
+  <!--Content end-->
+
+    </div>
+  </body>
 </html>
