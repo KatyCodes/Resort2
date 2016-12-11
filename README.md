@@ -1,4 +1,4 @@
-# The Best Resort
+# The Pacifica Resort
 Version 0.0.1: August 4, 2016
 by [Katy Henning](https://katycodes.github.io/portfolio) and Amber Farrington
 

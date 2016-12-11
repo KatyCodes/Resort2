@@ -6,7 +6,8 @@
       <link href="css/my-styles.css" rel="stylesheet">
       <script src="http://code.jquery.com/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <title>Best Resort</title>
+      <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
+      <title>Pacifica Resort</title>
   </head>
 
     <body>
@@ -14,15 +15,13 @@
   <!-- NAVBAR START-->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-
+        <a class="navbar-brand" id="logo" href="index.html"><img src="img/palm.png" alt="palm tree logo"></a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
         <div class="collapse navbar-collapse">
-
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -45,7 +44,7 @@
           <div class="carousel-inner">
 
             <div class="item active">
-              <h1>Welcome to the Best Resort</h1>
+              <h1>Welcome to the Pacifica Resort</h1>
               <img src="img/picture1.jpg">
             </div>
             <div class="item">
@@ -69,7 +68,43 @@
     <div class="container">
 
   <!--Carousel end-->
-
+  <!--booking start -->
+  <!-- <div class="container">
+    <div class='col-md-5'>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker6'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-5'>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker7'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker6').datetimepicker();
+        $('#datetimepicker7').datetimepicker({
+            useCurrent: false //Important! See issue #1075
+        });
+        $("#datetimepicker6").on("dp.change", function (e) {
+            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+        });
+        $("#datetimepicker7").on("dp.change", function (e) {
+            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+  <!--booking finish --> -->
   <!--Content start-->
      <div class="row">
         <div class="col-sm-4">
@@ -97,8 +132,8 @@
                 <img class="img-responsive" src="img/beach.jpg">
               </div>
               <div class="col-sm-6">
-                <p>Get access to the best rooms and beaches for only $100 a night!</p>
-                <a href="#">Visit Best Resort NOW &raquo;</a>
+                <p>Get access to the Pacifica rooms and beaches for only $100 a night!</p>
+                <a href="#">Visit Pacifica Resort NOW &raquo;</a>
               </div>
             </div>
           </div>

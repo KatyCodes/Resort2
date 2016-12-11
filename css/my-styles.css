@@ -1,19 +1,62 @@
-#myCarousel > div > div > div > div.item > h1 {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  z-index: 40;
-  color: white;
-  text-shadow: 0 1px 2px black;
-}
+@media (max-width: 700px) {
+  body > div.navbar.navbar-inverse.navbar-fixed-top > div > a > img {
+    display: none;
+  }
+ }
+
+ @media (min-width: 1200px) {
+   #myCarousel {
+     min-height: 850px;
+   }
+ }
 
 body {
   padding-top: 50px;
 }
+
+body > div.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #B2C1CC;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div > ul > li > a {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div > ul > li > a:hover {
+  background-color: grey;
+  color: white !important;
+
+}
+
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div > ul > li.active > a {
+  background-color: #858E94;
+  color: white;
+}
+
+body > div.container > form {
+  padding-right: 100px;
+}
+
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > a > img {
+  position: absolute;
+  top: 5%;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5,  {
+  font-family: 'Lato', sans-serif;
+}
+
 .container {
   max-width: 1500px;
   padding: 20px;
 }
+
 .jumbotron {
   text-align: center;
 }
@@ -37,17 +80,35 @@ body {
   background-color: black;
 }
 
+#myCarousel {
+  max-height: 700px;
+}
+
 #myCarousel > div > div > div > div.item.active > img {
   max-height: 750px;
 }
-body > div.navbar.navbar-inverse.navbar-fixed-top {
-  background-color: white;
-}
-body > div.navbar.navbar-inverse.navbar-fixed-top > div > div > ul > li:hover {
-  background-color: black;
-  color:white;
+
+#myCarousel > div > div > div > div.item > h1 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: 40;
+  color: white;
+  text-shadow: 0 1px 2px black;
+  font-family: 'Lato', sans-serif;
 }
 
-body > div.container > form {
-  padding-right: 100px;
+.carousel-control, .carousel-control:focus {
+  opacity: .100;
+  background: white;
+}
+
+#myCarousel > a.left.carousel-control:hover {
+  opacity: .50;
+  background: linear-gradient( -90deg, transparent, white);
+}
+
+#myCarousel > a.right.carousel-control:hover {
+  opacity: .50;
+  background: linear-gradient( -90deg, white, transparent);
 }
