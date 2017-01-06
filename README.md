@@ -1,6 +1,6 @@
 # The Pacifica Resort
 Version 0.0.1: August 4, 2016
-by [Katy Henning](https://katycodes.github.io/portfolio) and Amber Farrington
+by [Katy Henning](https://katycodes.github.io) and Amber Farrington
 
 ### Technologies Used
 CSS HTML bootstrap
@@ -30,4 +30,4 @@ For questions, concerns, or suggestions please email katyannhenning@gmail.com
 * This software is licensed under the MIT license.
 
 
-Copyright (c) 2016 Copyright _[Katy Henning](https://katycodes.github.io/portfolio)_ All Rights Reserved.
+Copyright (c) 2016 Copyright _[Katy Henning](https://katycodes.github.io)_ All Rights Reserved.
